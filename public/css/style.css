@@ -109,3 +109,13 @@ body h2 {
   color: rgba(255, 255, 255, 0.8);
   margin-right: 10px;
 }
+
+/*Mobile/Tablet mods*/
+
+@media screen and (max-width: 589px) {
+  .bg1 img {
+    margin-top: 50px;
+    width: 250px;
+    height: auto;
+  }
+}
