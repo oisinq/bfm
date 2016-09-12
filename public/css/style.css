@@ -119,3 +119,18 @@ body h2 {
     height: auto;
   }
 }
+
+@media screen and (max-width: 589px) {
+  .bg1 img {
+    margin-top: 50px;
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .bg2 img {
+    width: 250px;
+    height: auto;
+  }
+}
