@@ -46,17 +46,13 @@ body h2 {
 /*resize bg for button width*/
 .bg1 {
   width: 80%;
-  padding-bottom: 80px;
+  padding-bottom: 160px;
 }
 
 .btn-block {
   height: 70px;
   margin-top: 40px;
   margin-bottom: 60px;
-}
-
-.btn-default {
-  border: 1px solid black;
 }
 
 .bg2 {
