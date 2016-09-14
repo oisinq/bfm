@@ -91,6 +91,14 @@ form {
   margin-top: 50px;
 }
 
+.smallMap {
+  display: none;
+}
+
+.tinyMap {
+  display: none;
+}
+
 /*footer*/
 
 .footer {
@@ -128,7 +136,7 @@ hr {
     height: auto;
   }
 
-  .bg1{
+  .bg1 {
     height: auto;
   }
 
@@ -145,12 +153,36 @@ hr {
 
   .bg2 h2 {
     margin-left: 0px;
+    margin-bottom: 70px;
   }
 
   .bg2 img {
     width: 100%;
     height:auto;
     margin-top: 50px;
+  }
+
+  .bigMap {
+    display: none;
+  }
+
+  .smallMap {
+    display: unset;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .bg1{
+    height: auto;
+  }
+
+  .bg1{
+    margin-bottom: 70px;
+  }
+
+  .footer {
+    height: auto;
+    padding-bottom: 70px;
   }
 }
 
