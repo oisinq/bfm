@@ -27,6 +27,10 @@ body h2 {
   font-size: 18px;
 }
 
+#brand {
+  font-weight: bold;
+}
+
 .fa {
   color: #fff;
 }
