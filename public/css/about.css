@@ -94,10 +94,15 @@ button .navbar .navbar-toggle {
   font-size: 18px;
 }
 
+#custom .funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+  color: black;
+  background-color: #FFCC00;
+}
+
 /*footer*/
 
 .footer {
-  height: 368px;
+  height: 300px;
   background-color: #003366;
 }
 

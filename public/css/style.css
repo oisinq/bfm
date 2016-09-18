@@ -114,6 +114,7 @@ button .navbar .navbar-toggle {
 /*footer*/
 
 .footer {
+  height: 300px;
   background-color: #003366;
 }
 
@@ -134,12 +135,17 @@ hr {
 
 .footer i {
   color: #fff;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 /*Mobile/Tablet mods*/
 
-
+@media screen and (max-width: 991px){
+  .footer{
+    height: auto;
+    padding-bottom: 70px;
+  }
+}
 
 @media screen and (max-width: 589px) {
   .bg1 img {
