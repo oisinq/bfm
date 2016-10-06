@@ -100,8 +100,9 @@ button .navbar .navbar-toggle {
 }*/
 
 .bg2 img {
-  margin-top: 80px;
+  margin-top: 110px;
   border: 1px solid black;
+  width: 90%;
 }
 
 .bg2 h2{
