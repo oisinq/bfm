@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.container-fluid {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+}
+
+/*navbar*/
+
+.navbar {
+  background-color: #FFCC00;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-header .navbar-nav li a {
+  font-size: 18px;
+}
+
+.fa {
+  color: #fff;
+}
+
+button .navbar .navbar-toggle {
+  background-color: #000;
+}
+
+.navbar .navbar-toggle {
+  background-color: #000;
+  border: 1px solid black;
+}
+
+.navbar a {
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*Desktop version*/
+
+
+.bg1 {
+  background-color: #FFF;
+  height: 768px;
+}
+
+.bg1 h2 {
+  font-size: 40px;
+  margin-top: 120px;
+  padding-bottom: 20px;
+}
+
+iframe{
+  border: 2px solid black;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*footer*/
+
+.footer {
+  height: 300px;
+  background-color: #003366;
+}
+
+.footer h3 {
+  margin-top: 100px;
+  color: #fff;
+}
+
+hr {
+  border-top: 1px solid #000;
+}
+
+.footer ul {
+  list-style-type: none;
+  float: left;
+  color: #fff;
+}
+
+.footer i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/*Mobile/Tablet mods*/
+
+@media screen and (max-width: 991px){
+
+  .bg1{
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .footer{
+    height: auto;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  .bg1 h2{
+    font-size: 32px;
+  }

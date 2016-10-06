@@ -65,15 +65,24 @@ button .navbar .navbar-toggle {
 }
 
 .btn-block {
-  height: 70px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+
 }
 
 /*overide boostrap button for larger font */
 #custom1 #btn-custom {
-  font-size: 18px;
+  height: 70px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 22px;
   font weight: bold;
+  padding-top: 17px;
+  background-color: #FFCC00;
+  border: 1px solid black;
+  color: black;
+}
+
+#custom1 #btn-custom:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .bg2 {
