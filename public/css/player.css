@@ -92,6 +92,10 @@ hr {
   margin-right: 10px;
 }
 
+.footer #sitemap a {
+  color: #fff;
+}
+
 /*Mobile/Tablet mods*/
 
 @media screen and (max-width: 991px){
