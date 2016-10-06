@@ -95,10 +95,6 @@ form {
   display: none;
 }
 
-.tinyMap {
-  display: none;
-}
-
 /*footer*/
 
 .footer {
@@ -168,6 +164,10 @@ hr {
 
   .bigMap {
     display: none;
+  }
+
+  .smallMap{
+    display: unset;
   }
 
 }
