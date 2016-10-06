@@ -74,7 +74,7 @@ button .navbar .navbar-toggle {
   margin-top: 40px;
   margin-bottom: 60px;
   font-size: 22px;
-  font weight: bold;
+  font-weight: bold;
   padding-top: 17px;
   background-color: #FFCC00;
   border: 1px solid black;
@@ -185,8 +185,4 @@ hr {
 i.fa {
   -webkit-animation: show 1s 1;
   /* any other properties to override from FontAwesome's default .fa rule */
-}
-@-webkit-keyframes show {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }

@@ -195,7 +195,7 @@ hr {
   }
 
   .bg2 h2{
-    padding-top: 20px
+    padding-top: 20px;
     margin-left: 0px;
   }
 
@@ -227,8 +227,4 @@ hr {
 i.fa {
   -webkit-animation: show 1s 1;
   /* any other properties to override from FontAwesome's default .fa rule */
-}
-@-webkit-keyframes show {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }
